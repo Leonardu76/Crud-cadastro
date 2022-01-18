@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(55deg,  #6e0303, #0c0c0c, #fc0505 );
+    background-size: 200% 300%; }
+
+/* NAVBAR   */
+
+#nav{
+    background-color: rgba(175, 7, 7, 0.24);
+}
+
+.navbar-nav *{
+    text-decoration: none;
+    border-radius: 18px;
+    border: groove rgb(226, 15, 15);
+    color: azure;
+    background-color: rgba(17, 18, 19, 0.041);
+
+}
+/* Tela de cadastro   */
+
+#register{
+    max-width: 900px;
+    margin: 100px 0 2px auto;
+}
+
+#btn_cad{
+    color: aliceblue;
+    background-color: rgba(165, 42, 42, 0.445);
+    border-radius: 15px;
+}
+
+.txt{
+    color:rgb(245, 245, 241);
+}
+
+
+#name, #email, #phone, #password, #birthday{
+    border-radius: 20px;
+    background-color: rgba(248, 246, 246, 0.774);
+} 
+
+.name, .email, .phone, .password, .birthday{
+  color: aliceblue;
+  font-size: 25px;
+} 
+
+/* Tela de contatos   */
+
+.title{
+    color:rgb(245, 245, 241);
+    margin: 80px 400px ;
+
+}
+
+/* Tabela   */
+
+#contacts-table{
+    max-width: 900px;
+    margin: 100px 100px;
+   
+
+}
+#contacts-table thead{
+    color: rgb(245, 237, 237);
+    background-color: rgba(13, 13, 139, 0.315);
+}
+#contacts-table tbody{
+    color: rgb(245, 237, 237);
+    background-color: rgba(13, 13, 139, 0.315);
+}
+
+
+/* ícones de ações   */
+
+.actions {
+    font-size: 16px;
+    margin-right: 5px;
+    
+     }
+/* Mensagem de sucesso   */
+
+
+.cadSucess{
+    color: seagreen;
+    font-size: 40px;
+
+}
+/* Mensagem de lista vazia  */
+
+#empty-list-text{
+    color: rgb(219, 147, 14);
+    font-size: 30px;
+}
+
+  /* Tela de editar   */
+
+
+#nameEd, #emailEd, #phoneEd, #passwordEd, #birthdayEd{
+    border-radius: 20px;
+    background-color: rgba(248, 246, 246, 0.774);
+} 
+
+.nameEd, .emailEd, .phoneEd, .passwordEd, .birthdayEd{
+    color: aliceblue;
+    font-size: 20px;
+  } 
+
+#alterar{
+    max-width: 900px;
+    margin: 100px 0 2px auto;
+}
+/* Tela de cadastro   */
+
+#btn_edit{
+    color: aliceblue;
+    background-color: rgba(165, 42, 42, 0.445);
+    border-radius: 15px;
+}
+
+/* Tela de delete   */
+
+
+#delete {
+    max-width: 1000px;
+    margin: 100px auto ;
+}
+.delete_btn, .btn{
+    color: azure;
+    background-color: rgba(113, 131, 10, 0.747);
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+
