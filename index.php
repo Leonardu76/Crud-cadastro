@@ -23,19 +23,19 @@ include_once ("process.php");
             <tbody>
                 <?php foreach($contacts as $contact): ?>
                 <tr>
-                    <td scope="row">
+                    <td  scope="row">
                         <?=$contact['id'] ?>
                     </td>
-                    <td scope="row">
+                    <td data-title="Nome:" scope="row">
                         <?=$contact['nome_cliente'] ?>
                     </td>
-                    <td scope="row">
+                    <td data-title="Email:" scope="row">
                         <?=$contact['email_cliente'] ?>
                     </td>
-                    <td scope="row">
+                    <td data-title="Telefone:" scope="row">
                         <?=$contact['telefone_cliente'] ?>
                     </td>
-                    <td scope="row">
+                    <td data-title="Data de nascimento:" scope="row">
                         <?=$contact['data_nasc_cliente'] ?>
                     </td>
 
