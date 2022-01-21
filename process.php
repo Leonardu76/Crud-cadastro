@@ -89,9 +89,7 @@ if(isset($_POST['cadastrar'])){
     try{
         $stmt->execute();
         ?>
-<div class="container">
-    <h2 class='cadSucess'>Cadastro Excluido com sucesso! Para vvoltar <a href="index.php">Clique aqui.</h2>
-</div>
+
 <?php
 
             header("Location: index.php");
