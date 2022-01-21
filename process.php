@@ -88,9 +88,7 @@ if(isset($_POST['cadastrar'])){
     $stmt->bindParam(":id", $id);
     try{
         $stmt->execute();
-        ?>
 
-<?php
 
             header("Location: index.php");
 
